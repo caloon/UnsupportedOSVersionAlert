@@ -25,8 +25,8 @@ class ViewController: UIViewController, OSVersionCheckerDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-    func didCheckOSVersion(supported: Bool) {
-        if !supported {
+    func didCheckOSVersion(supportedOrAlreadyShown: Bool) {
+        if !supportedOrAlreadyShown {
             OSVersionAlert.showInViewController(self)
         }
     }

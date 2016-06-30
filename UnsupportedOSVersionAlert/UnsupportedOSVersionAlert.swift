@@ -9,7 +9,7 @@
 import UIKit
 
 protocol OSVersionCheckerDelegate {
-    func didCheckOSVersion(supported: Bool)
+    func didCheckOSVersion(supportedOrAlreadyShown: Bool)
 }
 
 class OSVersionChecker: NSObject {
@@ -24,13 +24,19 @@ class OSVersionChecker: NSObject {
     }
     
     func checkOSVersion() {
-        // tbd
         
         if self.systemVersionLessThan(self.earliestSupportedOS) || self.systemVersionGreaterThan(self.latestSupportedOS) {
-            self.delegate?.didCheckOSVersion(false)
+            if !NSUserDefaults.standardUserDefaults().boolForKey("UnsupportedOSVersion " + UIDevice.currentDevice().systemVersion) {
+                NSUserDefaults.standardUserDefaults().setBool(true, forKey: "UnsupportedOSVersion " + UIDevice.currentDevice().systemVersion)
+                NSUserDefaults.standardUserDefaults().synchronize()
+                self.delegate?.didCheckOSVersion(false)
+            } else {
+                self.delegate?.didCheckOSVersion(true)
+            }
         } else {
             self.delegate?.didCheckOSVersion(true)
         }
+        
     }
     
     func systemVersionLessThan(v: String) -> Bool {
@@ -49,7 +55,7 @@ class OSVersionAlert: NSObject {
         
         if #available(iOS 8.0, *) {
             
-            let alertController = UIAlertController(title: NSLocalizedString("Unsupported iOS Version", comment: ""), message: String.localizedStringWithFormat(NSLocalizedString("You are using %@ with an unsupported iOS version. Please note that a flawless functionality can only be granted when using supported iOS versions.", comment: "")), preferredStyle: .Alert)
+            let alertController = UIAlertController(title: NSLocalizedString("Unsupported iOS Version", comment: ""), message: String.localizedStringWithFormat(NSLocalizedString("You are using %@ with an unsupported iOS version. Please note that some functionalities might thus not work as expected.", comment: "")), preferredStyle: .Alert)
             
             let cancelAction = UIAlertAction(title: "Done", style: .Cancel) { (action) in
             }
