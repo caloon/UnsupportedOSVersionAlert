@@ -3,7 +3,7 @@
 This source codes alerts your users if they use your app with an unsupported version of iOS (e.g. iOS 10.0 beta). The alert looks like this:
 // tbd - screenshot
 
-The AlertController shows only ONCE for each system version (e.g. only once for iOS 10.0 beta). If you would like to remind the user each time he launches the app with an unsupported version, set the onlyShowOnce property in UnsupportedOSVersionAlert.swift to *false*.
+The AlertController shows only ONCE for each system version (e.g. only once for iOS 10.0 beta). If you would like to change this behavior, you can do this in the checkOSVersion method by removing the NSUserDefaults *if* queries.
 
 ## Implementation
 - Drag the UnsupportedOSVersionAlert.swift file into your project
