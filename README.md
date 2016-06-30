@@ -5,12 +5,12 @@ This source codes alerts your users if they use your app with an unsupported ver
 
 ## Implementation
 - Drag the UnsupportedOSVersionAlert.swift file into your project
-- Make your initial view controller a delegate of OSVersionCheckerDelegate
+- Make your initial VC a delegate of OSVersionCheckerDelegate
 ``` 
 class ViewController: UIViewController, OSVersionCheckerDelegate 
 ```
 
-- Implement the delegate method
+- Implement the delegate method in your VC
 ``` 
 func didCheckOSVersion(supported: Bool) {
      if !supported {
@@ -19,7 +19,7 @@ func didCheckOSVersion(supported: Bool) {
   }
 ```
 
-- Create an instance of OSVersionChecker, set your view controller as the delegate, set supported OS versions (lower and upper) and check the OS version
+- In your viewDidLoad, create an instance of OSVersionChecker, set your view controller as the delegate, set supported OS versions (lower and upper) and check the OS version
 ``` 
 let checker = OSVersionChecker()
 checker.delegate = self
