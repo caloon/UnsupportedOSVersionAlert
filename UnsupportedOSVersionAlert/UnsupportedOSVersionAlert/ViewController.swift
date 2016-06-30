@@ -14,8 +14,10 @@ class ViewController: UIViewController, OSVersionCheckerDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        OSVersionChecker.setSupportedOSVersions(earliest: "8.1", latest: "9.3.2")
-        OSVersionChecker.checkOSVersion
+        let checker = OSVersionChecker()
+        checker.delegate = self
+        checker.setSupportedOSVersions("8.1", latest: "9.3.2")
+        checker.checkOSVersion()
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,7 +27,7 @@ class ViewController: UIViewController, OSVersionCheckerDelegate {
     
     func didCheckOSVersion(supported: Bool) {
         if !supported {
-            OSVersionAlert.show()
+            OSVersionAlert.showInViewController(self)
         }
     }
 }

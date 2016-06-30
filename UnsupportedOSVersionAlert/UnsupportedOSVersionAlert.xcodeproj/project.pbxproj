@@ -13,8 +13,7 @@
 		D2E2E4221D252225003F246F /* UnsupportedOSVersionAlert.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2E2E4201D252225003F246F /* UnsupportedOSVersionAlert.xcdatamodeld */; };
 		D2E2E4241D252225003F246F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E2E4231D252225003F246F /* Assets.xcassets */; };
 		D2E2E4271D252225003F246F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E2E4251D252225003F246F /* LaunchScreen.storyboard */; };
-		D2E2E4321D252225003F246F /* UnsupportedOSVersionAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E2E4311D252225003F246F /* UnsupportedOSVersionAlertTests.swift */; };
-		D2E2E43D1D252225003F246F /* UnsupportedOSVersionAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E2E43C1D252225003F246F /* UnsupportedOSVersionAlertUITests.swift */; };
+		D2E2E44D1D252385003F246F /* UnsupportedOSVersionAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E2E44C1D252385003F246F /* UnsupportedOSVersionAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +43,8 @@
 		D2E2E4261D252225003F246F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2E2E4281D252225003F246F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2E2E42D1D252225003F246F /* UnsupportedOSVersionAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnsupportedOSVersionAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2E2E4311D252225003F246F /* UnsupportedOSVersionAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsupportedOSVersionAlertTests.swift; sourceTree = "<group>"; };
-		D2E2E4331D252225003F246F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2E2E4381D252225003F246F /* UnsupportedOSVersionAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnsupportedOSVersionAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2E2E43C1D252225003F246F /* UnsupportedOSVersionAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsupportedOSVersionAlertUITests.swift; sourceTree = "<group>"; };
-		D2E2E43E1D252225003F246F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2E2E44C1D252385003F246F /* UnsupportedOSVersionAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnsupportedOSVersionAlert.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				D2E2E4181D252225003F246F /* UnsupportedOSVersionAlert */,
-				D2E2E4301D252225003F246F /* UnsupportedOSVersionAlertTests */,
-				D2E2E43B1D252225003F246F /* UnsupportedOSVersionAlertUITests */,
 				D2E2E4171D252225003F246F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,6 +95,7 @@
 			children = (
 				D2E2E4191D252225003F246F /* AppDelegate.swift */,
 				D2E2E41B1D252225003F246F /* ViewController.swift */,
+				D2E2E44C1D252385003F246F /* UnsupportedOSVersionAlert.swift */,
 				D2E2E41D1D252225003F246F /* Main.storyboard */,
 				D2E2E4231D252225003F246F /* Assets.xcassets */,
 				D2E2E4251D252225003F246F /* LaunchScreen.storyboard */,
@@ -108,24 +103,6 @@
 				D2E2E4201D252225003F246F /* UnsupportedOSVersionAlert.xcdatamodeld */,
 			);
 			path = UnsupportedOSVersionAlert;
-			sourceTree = "<group>";
-		};
-		D2E2E4301D252225003F246F /* UnsupportedOSVersionAlertTests */ = {
-			isa = PBXGroup;
-			children = (
-				D2E2E4311D252225003F246F /* UnsupportedOSVersionAlertTests.swift */,
-				D2E2E4331D252225003F246F /* Info.plist */,
-			);
-			path = UnsupportedOSVersionAlertTests;
-			sourceTree = "<group>";
-		};
-		D2E2E43B1D252225003F246F /* UnsupportedOSVersionAlertUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D2E2E43C1D252225003F246F /* UnsupportedOSVersionAlertUITests.swift */,
-				D2E2E43E1D252225003F246F /* Info.plist */,
-			);
-			path = UnsupportedOSVersionAlertUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +239,7 @@
 				D2E2E41C1D252225003F246F /* ViewController.swift in Sources */,
 				D2E2E41A1D252225003F246F /* AppDelegate.swift in Sources */,
 				D2E2E4221D252225003F246F /* UnsupportedOSVersionAlert.xcdatamodeld in Sources */,
+				D2E2E44D1D252385003F246F /* UnsupportedOSVersionAlert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2E2E4321D252225003F246F /* UnsupportedOSVersionAlertTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2E2E43D1D252225003F246F /* UnsupportedOSVersionAlertUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -392,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -486,6 +462,7 @@
 				D2E2E4431D252225003F246F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2E2E4441D252225003F246F /* Build configuration list for PBXNativeTarget "UnsupportedOSVersionAlertTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +471,7 @@
 				D2E2E4461D252225003F246F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2E2E4471D252225003F246F /* Build configuration list for PBXNativeTarget "UnsupportedOSVersionAlertUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +480,7 @@
 				D2E2E4491D252225003F246F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
