@@ -16,7 +16,7 @@ class OSVersionChecker: NSObject {
     
     var delegate: OSVersionCheckerDelegate?
     var earliestSupportedOS = "7.0"
-    var latestSupportedOS = "10.0"
+    var latestSupportedOS = "9.0"
     
     func setSupportedOSVersions(earliest: String, latest: String) {
         self.earliestSupportedOS = earliest
@@ -26,8 +26,19 @@ class OSVersionChecker: NSObject {
     func checkOSVersion() {
         // tbd
         
-        
-        self.delegate?.didCheckOSVersion(false)
+        if self.systemVersionLessThan(self.earliestSupportedOS) || self.systemVersionGreaterThan(self.latestSupportedOS) {
+            self.delegate?.didCheckOSVersion(false)
+        } else {
+            self.delegate?.didCheckOSVersion(true)
+        }
+    }
+    
+    func systemVersionLessThan(v: String) -> Bool {
+        return UIDevice.currentDevice().systemVersion.compare(v, options: NSStringCompareOptions.NumericSearch) == NSComparisonResult.OrderedAscending
+    }
+    
+    func systemVersionGreaterThan(v: String) -> Bool {
+        return UIDevice.currentDevice().systemVersion.compare(v, options: NSStringCompareOptions.NumericSearch) == NSComparisonResult.OrderedDescending
     }
     
 }
@@ -47,8 +58,8 @@ class OSVersionAlert: NSObject {
             viewController.presentViewController(alertController, animated: true, completion: nil)
             
         } else {
+            // Fallback on earlier iOS versions >> UIAlertView
             
-            // Fallback on earlier versions >> UIAlertView
             let alertView = UIAlertView(title: NSLocalizedString("Unsupported iOS Version", comment: ""), message: String.localizedStringWithFormat(NSLocalizedString("You are using %@ with an unsupported iOS version. Please note that a flawless functionality can only be granted when using supported iOS versions.", comment: "")), delegate: nil, cancelButtonTitle: "OK", otherButtonTitles: "")
             alertView.alertViewStyle = .Default
             alertView.show()
