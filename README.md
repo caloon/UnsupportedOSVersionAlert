@@ -25,6 +25,7 @@ func didCheckOSVersion(supported: Bool) {
 ``` 
 OSVersionChecker.checkOSVersion(self, earliest: "8.1", latest: "9.1.3")
 ```
+- [Work in Progress] Drag the language files into your project.
 
 ## Contribution
 - If you'd like to contribute please submit a pull request via GitHub. 
