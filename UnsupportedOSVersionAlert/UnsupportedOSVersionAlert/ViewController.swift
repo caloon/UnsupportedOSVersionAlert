@@ -12,22 +12,23 @@ class ViewController: UIViewController, OSVersionCheckerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
-        let checker = OSVersionChecker()
-        checker.delegate = self
-        checker.setSupportedOSVersions("8.1", latest: "9.3.2")
-        checker.checkOSVersion()
+//        let checker = OSVersionChecker()
+//        checker.delegate = self
+//        checker.setSupportedOSVersions("8.1", latest: "9.1.2")
+//        checker.checkOSVersion()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
-    func didCheckOSVersion(supportedOrAlreadyShown: Bool) {
-        if !supportedOrAlreadyShown {
-            OSVersionAlert.showInViewController(self)
+    func didCheckOSVersion(supported: Bool) {
+        
+        print("didCheckOSVersion")
+        
+        if !supported {
+        //    self.presentViewController(OSVersionAlert.showInViewController(self), animated: true, completion: nil)
         }
     }
 }

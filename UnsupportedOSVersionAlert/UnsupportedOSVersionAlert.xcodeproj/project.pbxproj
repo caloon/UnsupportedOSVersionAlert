@@ -16,23 +16,6 @@
 		D2E2E44D1D252385003F246F /* UnsupportedOSVersionAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E2E44C1D252385003F246F /* UnsupportedOSVersionAlert.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		D2E2E42E1D252225003F246F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D2E2E40E1D252225003F246F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D2E2E4151D252225003F246F;
-			remoteInfo = UnsupportedOSVersionAlert;
-		};
-		D2E2E4391D252225003F246F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D2E2E40E1D252225003F246F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D2E2E4151D252225003F246F;
-			remoteInfo = UnsupportedOSVersionAlert;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		D2E2E4161D252225003F246F /* UnsupportedOSVersionAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnsupportedOSVersionAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E2E4191D252225003F246F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,27 +25,11 @@
 		D2E2E4231D252225003F246F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2E2E4261D252225003F246F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2E2E4281D252225003F246F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2E2E42D1D252225003F246F /* UnsupportedOSVersionAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnsupportedOSVersionAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2E2E4381D252225003F246F /* UnsupportedOSVersionAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnsupportedOSVersionAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E2E44C1D252385003F246F /* UnsupportedOSVersionAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnsupportedOSVersionAlert.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D2E2E4131D252225003F246F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2E2E42A1D252225003F246F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2E2E4351D252225003F246F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,8 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				D2E2E4161D252225003F246F /* UnsupportedOSVersionAlert.app */,
-				D2E2E42D1D252225003F246F /* UnsupportedOSVersionAlertTests.xctest */,
-				D2E2E4381D252225003F246F /* UnsupportedOSVersionAlertUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,62 +90,19 @@
 			productReference = D2E2E4161D252225003F246F /* UnsupportedOSVersionAlert.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D2E2E42C1D252225003F246F /* UnsupportedOSVersionAlertTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D2E2E4441D252225003F246F /* Build configuration list for PBXNativeTarget "UnsupportedOSVersionAlertTests" */;
-			buildPhases = (
-				D2E2E4291D252225003F246F /* Sources */,
-				D2E2E42A1D252225003F246F /* Frameworks */,
-				D2E2E42B1D252225003F246F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D2E2E42F1D252225003F246F /* PBXTargetDependency */,
-			);
-			name = UnsupportedOSVersionAlertTests;
-			productName = UnsupportedOSVersionAlertTests;
-			productReference = D2E2E42D1D252225003F246F /* UnsupportedOSVersionAlertTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		D2E2E4371D252225003F246F /* UnsupportedOSVersionAlertUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D2E2E4471D252225003F246F /* Build configuration list for PBXNativeTarget "UnsupportedOSVersionAlertUITests" */;
-			buildPhases = (
-				D2E2E4341D252225003F246F /* Sources */,
-				D2E2E4351D252225003F246F /* Frameworks */,
-				D2E2E4361D252225003F246F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D2E2E43A1D252225003F246F /* PBXTargetDependency */,
-			);
-			name = UnsupportedOSVersionAlertUITests;
-			productName = UnsupportedOSVersionAlertUITests;
-			productReference = D2E2E4381D252225003F246F /* UnsupportedOSVersionAlertUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D2E2E40E1D252225003F246F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0730;
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Josef Moser";
 				TargetAttributes = {
 					D2E2E4151D252225003F246F = {
 						CreatedOnToolsVersion = 7.3.1;
-					};
-					D2E2E42C1D252225003F246F = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = D2E2E4151D252225003F246F;
-					};
-					D2E2E4371D252225003F246F = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = D2E2E4151D252225003F246F;
 					};
 				};
 			};
@@ -198,8 +120,6 @@
 			projectRoot = "";
 			targets = (
 				D2E2E4151D252225003F246F /* UnsupportedOSVersionAlert */,
-				D2E2E42C1D252225003F246F /* UnsupportedOSVersionAlertTests */,
-				D2E2E4371D252225003F246F /* UnsupportedOSVersionAlertUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -212,20 +132,6 @@
 				D2E2E4271D252225003F246F /* LaunchScreen.storyboard in Resources */,
 				D2E2E4241D252225003F246F /* Assets.xcassets in Resources */,
 				D2E2E41F1D252225003F246F /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2E2E42B1D252225003F246F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2E2E4361D252225003F246F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,34 +149,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2E2E4291D252225003F246F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2E2E4341D252225003F246F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D2E2E42F1D252225003F246F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D2E2E4151D252225003F246F /* UnsupportedOSVersionAlert */;
-			targetProxy = D2E2E42E1D252225003F246F /* PBXContainerItemProxy */;
-		};
-		D2E2E43A1D252225003F246F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D2E2E4151D252225003F246F /* UnsupportedOSVersionAlert */;
-			targetProxy = D2E2E4391D252225003F246F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D2E2E41D1D252225003F246F /* Main.storyboard */ = {
@@ -329,7 +208,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -368,7 +247,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -397,52 +276,6 @@
 			};
 			name = Release;
 		};
-		D2E2E4451D252225003F246F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = UnsupportedOSVersionAlertTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.caloon.UnsupportedOSVersionAlertTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnsupportedOSVersionAlert.app/UnsupportedOSVersionAlert";
-			};
-			name = Debug;
-		};
-		D2E2E4461D252225003F246F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = UnsupportedOSVersionAlertTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.caloon.UnsupportedOSVersionAlertTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnsupportedOSVersionAlert.app/UnsupportedOSVersionAlert";
-			};
-			name = Release;
-		};
-		D2E2E4481D252225003F246F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = UnsupportedOSVersionAlertUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.caloon.UnsupportedOSVersionAlertUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = UnsupportedOSVersionAlert;
-			};
-			name = Debug;
-		};
-		D2E2E4491D252225003F246F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = UnsupportedOSVersionAlertUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.caloon.UnsupportedOSVersionAlertUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = UnsupportedOSVersionAlert;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -460,24 +293,6 @@
 			buildConfigurations = (
 				D2E2E4421D252225003F246F /* Debug */,
 				D2E2E4431D252225003F246F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D2E2E4441D252225003F246F /* Build configuration list for PBXNativeTarget "UnsupportedOSVersionAlertTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D2E2E4451D252225003F246F /* Debug */,
-				D2E2E4461D252225003F246F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D2E2E4471D252225003F246F /* Build configuration list for PBXNativeTarget "UnsupportedOSVersionAlertUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D2E2E4481D252225003F246F /* Debug */,
-				D2E2E4491D252225003F246F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
