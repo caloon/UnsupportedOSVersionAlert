@@ -1,7 +1,7 @@
 # UnsupportedOSVersionAlert
 
 This source codes alerts your users if they use your app with an unsupported version of iOS (e.g. iOS 10.0 beta). The alert looks like this:
-![alt text](https://github.com/caloon/UnsupportedOSVersionAlert/UnsupportedOSVersionAlert/screenshot.png "Screenshot")
+![alt text](https://github.com/caloon/UnsupportedOSVersionAlert/blob/master/UnsupportedOSVersionAlert/screenshot.png "Screenshot")
 
 
 Works with iOS 8.0 upwards (> 95% of iOS devices covered). 
