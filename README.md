@@ -16,6 +16,7 @@ class AppDelegate: UIApplicationDelegate, OSVersionCheckerDelegate
 ``` 
 func didCheckOSVersion(supported: Bool) {
     if !supported {
+        self.window?.makeKeyAndVisible()
         self.window?.rootViewController?.presentViewController(OSVersionAlert.show(), animated: true, completion: nil)
     }
 }
