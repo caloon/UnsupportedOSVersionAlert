@@ -15,10 +15,10 @@ class AppDelegate: UIApplicationDelegate, OSVersionCheckerDelegate
 - Implement the delegate method in your AppDelegate
 ``` 
 func didCheckOSVersion(supported: Bool) {
-        if !supported {
-            self.window?.rootViewController?.presentViewController(OSVersionAlert.show(), animated: true, completion: nil)
-        }
+    if !supported {
+        self.window?.rootViewController?.presentViewController(OSVersionAlert.show(), animated: true, completion: nil)
     }
+}
 ```
 
 - In your application didFinishLaunchingWithOptions, use the OSVersionChecker API to set the delegate, the earliest supported version and the latest supported version
