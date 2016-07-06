@@ -7,26 +7,23 @@ The AlertController shows only ONCE for each system version (e.g. only once for 
 
 ## Implementation
 - Drag the UnsupportedOSVersionAlert.swift file into your project
-- Make your initial VC a delegate of OSVersionCheckerDelegate
+- Make your AppDelegate a delegate of OSVersionCheckerDelegate
 ``` 
-class ViewController: UIViewController, OSVersionCheckerDelegate 
+class AppDelegate: UIApplicationDelegate, OSVersionCheckerDelegate 
 ```
 
-- Implement the delegate method in your VC
+- Implement the delegate method in your AppDelegate
 ``` 
 func didCheckOSVersion(supported: Bool) {
-     if !supported {
-        OSVersionAlert.showInViewController(self)
-    } 
-  }
+        if !supported {
+            self.window?.rootViewController?.presentViewController(OSVersionAlert.show(), animated: true, completion: nil)
+        }
+    }
 ```
 
-- In your viewDidLoad, create an instance of OSVersionChecker, set your view controller as the delegate, set supported OS versions (lower and upper) and check the OS version
+- In your application didFinishLaunchingWithOptions, use the OSVersionChecker API to set the delegate, the earliest supported version and the latest supported version
 ``` 
-let checker = OSVersionChecker()
-checker.delegate = self
-checker.setSupportedOSVersions("8.1", latest: "9.3.2")
-checker.checkOSVersion()
+OSVersionChecker.checkOSVersion(self, earliest: "8.1", latest: "9.1.3")
 ```
 
 ## Contribution
