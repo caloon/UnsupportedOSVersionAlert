@@ -16,8 +16,8 @@ class OSVersionChecker: NSObject {
     
     class func checkOSVersion(delegate: OSVersionCheckerDelegate, earliest: String, latest: String) {
         if OSVersionChecker.systemVersionLessThan(earliest) || OSVersionChecker.systemVersionGreaterThan(latest) {
-            if !NSUserDefaults.standardUserDefaults().boolForKey("UnsupportedOSVersion- " + UIDevice.currentDevice().systemVersion) {
-                NSUserDefaults.standardUserDefaults().setBool(true, forKey: "UnsupportedOSVersion " + UIDevice.currentDevice().systemVersion)
+            if !NSUserDefaults.standardUserDefaults().boolForKey("kUnsupportedOSVersion-" + UIDevice.currentDevice().systemVersion) {
+                NSUserDefaults.standardUserDefaults().setBool(true, forKey: "kUnsupportedOSVersion-" + UIDevice.currentDevice().systemVersion)
                 NSUserDefaults.standardUserDefaults().synchronize()
                     delegate.didCheckOSVersion(false)
             } else {
