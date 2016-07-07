@@ -5,7 +5,7 @@ This source codes alerts your users if they use your app with an unsupported ver
 ![alt text](https://github.com/caloon/UnsupportedOSVersionAlert/blob/master/UnsupportedOSVersionAlert/ios-screenshot.png "Screenshot")
 
 
-Works with iOS 8.0 upwards (> 95% of iOS devices covered). 
+Works with iOS 7.0 upwards (please test with iOS 7 if you still have Xcode 6 installed). 
 
 The AlertController shows only ONCE for each system version (e.g. only once for iOS 10.0 beta). If you would like to change this behavior, you can do this in the checkOSVersion method by removing the NSUserDefaults *if* queries.
 
@@ -21,7 +21,7 @@ class AppDelegate: UIApplicationDelegate, OSVersionCheckerDelegate
 func didCheckOSVersion(supported: Bool) {
     if !supported {
         self.window?.makeKeyAndVisible()
-        self.window?.rootViewController?.presentViewController(OSVersionAlert.show(), animated: true, completion: nil)
+        OSVersionAlert.show()
     }
 }
 ```
