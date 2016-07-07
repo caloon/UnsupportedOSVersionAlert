@@ -8,28 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController, OSVersionCheckerDelegate {
+class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        let checker = OSVersionChecker()
-//        checker.delegate = self
-//        checker.setSupportedOSVersions("8.1", latest: "9.1.2")
-//        checker.checkOSVersion()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-    }
-    
-    func didCheckOSVersion(supported: Bool) {
-        
-        print("didCheckOSVersion")
-        
-        if !supported {
-        //    self.presentViewController(OSVersionAlert.showInViewController(self), animated: true, completion: nil)
-        }
     }
 }
 
