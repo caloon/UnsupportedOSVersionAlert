@@ -1,8 +1,8 @@
 # UnsupportedOSVersionAlert
 
 [![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
-[https://img.shields.io/github/license/mashape/apistatus.svg]
-[https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Star]
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)]()
+[![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Star&maxAge=2592000)]()
 
 
 This source code alerts your users if they use your app with an unsupported version of iOS (e.g. iOS 10.0 beta). The alert looks like this:
