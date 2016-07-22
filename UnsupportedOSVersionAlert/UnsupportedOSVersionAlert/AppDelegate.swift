@@ -26,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, OSVersionCheckerDelegate 
     func didCheckOSVersion(supported: Bool) {
         if !supported {
             self.window?.makeKeyAndVisible()
-            OSVersionAlert.show()
+            OSVersionAlert.show(title: <#T##String#>, message: <#T##String#>)
         }
     }
 
