@@ -18,14 +18,15 @@ coming soon...
 
 #### Manually
 1. Download and drop ```UnsupportedOSVersionAlert.swift``` in your project.  
-2. Done!
+2. [Work in Progress] Drop the language files into your project.
+3. Done!
 
 ## Usage example
-1. Make your AppDelegate a delegate of OSVersionCheckerDelegate
+- Make your AppDelegate a delegate of OSVersionCheckerDelegate
 ``` 
 class AppDelegate: UIApplicationDelegate, OSVersionCheckerDelegate 
 ```
-2. Implement the delegate method in your AppDelegate
+- Implement the delegate method in your AppDelegate
 ``` 
 func didCheckOSVersion(supported: Bool) {
     if !supported {
@@ -35,11 +36,10 @@ func didCheckOSVersion(supported: Bool) {
     }
 }
 ```
-3. In your application didFinishLaunchingWithOptions, use the OSVersionChecker API to set the delegate, the earliest supported version and the latest supported version
+- In your application didFinishLaunchingWithOptions, use the OSVersionChecker API to set the delegate, the earliest supported version and the latest supported version
 ``` 
 OSVersionChecker.checkOSVersion(self, earliest: "8.1", latest: "9.1.3")
 ```
-4. [Work in Progress] Drag the language files into your project.
 
 ## Contribution
 - If you'd like to contribute please submit a pull request via GitHub. 
@@ -55,7 +55,7 @@ Josef Moser – [@josef_moser](https://twitter.com/josef_moser)
 
 Distributed under the Public Domain license.
 
-[https://github.com/yourname/caloon](https://github.com/caloon/)
+[https://github.com/caloon](https://github.com/caloon/)
 
 Feel free to use this source in any of your projects. If you'd like to acknowledge the author, feel free to link to www.caloon.co or this GitHub page.
 
