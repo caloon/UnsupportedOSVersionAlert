@@ -1,7 +1,4 @@
 # UnsupportedOSVersionAlert
-[![Swift Version][swift-image]][swift-url]
-[![License][license-image]][license-url]
-[![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
 
 This source code alerts your users if they use your app with an unsupported version of iOS (e.g. iOS 10.0 beta). The alert looks like this:
 
@@ -12,6 +9,7 @@ The AlertController shows only *once* for each system version (e.g. only once fo
 ## Requirements
 
 - iOS 7.0+ (please test with iOS 7 if you still have Xcode 6 installed)
+- Swift 2.0
 
 ## Installation
 
