@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D27FA93F1D4243C500758BBE /* UnsupportedOSVersionAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FA93E1D4243C500758BBE /* UnsupportedOSVersionAlert.swift */; };
 		D2E2E41A1D252225003F246F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E2E4191D252225003F246F /* AppDelegate.swift */; };
 		D2E2E41C1D252225003F246F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E2E41B1D252225003F246F /* ViewController.swift */; };
 		D2E2E41F1D252225003F246F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E2E41D1D252225003F246F /* Main.storyboard */; };
 		D2E2E4221D252225003F246F /* UnsupportedOSVersionAlert.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2E2E4201D252225003F246F /* UnsupportedOSVersionAlert.xcdatamodeld */; };
 		D2E2E4241D252225003F246F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E2E4231D252225003F246F /* Assets.xcassets */; };
 		D2E2E4271D252225003F246F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E2E4251D252225003F246F /* LaunchScreen.storyboard */; };
-		D2E2E44D1D252385003F246F /* UnsupportedOSVersionAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E2E44C1D252385003F246F /* UnsupportedOSVersionAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D27FA93E1D4243C500758BBE /* UnsupportedOSVersionAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UnsupportedOSVersionAlert.swift; path = ../../Source/UnsupportedOSVersionAlert.swift; sourceTree = "<group>"; };
 		D2E2E4161D252225003F246F /* UnsupportedOSVersionAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnsupportedOSVersionAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E2E4191D252225003F246F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2E2E41B1D252225003F246F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		D2E2E4231D252225003F246F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2E2E4261D252225003F246F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2E2E4281D252225003F246F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2E2E44C1D252385003F246F /* UnsupportedOSVersionAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnsupportedOSVersionAlert.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			children = (
 				D2E2E4191D252225003F246F /* AppDelegate.swift */,
 				D2E2E41B1D252225003F246F /* ViewController.swift */,
-				D2E2E44C1D252385003F246F /* UnsupportedOSVersionAlert.swift */,
+				D27FA93E1D4243C500758BBE /* UnsupportedOSVersionAlert.swift */,
 				D2E2E41D1D252225003F246F /* Main.storyboard */,
 				D2E2E4231D252225003F246F /* Assets.xcassets */,
 				D2E2E4251D252225003F246F /* LaunchScreen.storyboard */,
@@ -145,7 +145,7 @@
 				D2E2E41C1D252225003F246F /* ViewController.swift in Sources */,
 				D2E2E41A1D252225003F246F /* AppDelegate.swift in Sources */,
 				D2E2E4221D252225003F246F /* UnsupportedOSVersionAlert.xcdatamodeld in Sources */,
-				D2E2E44D1D252385003F246F /* UnsupportedOSVersionAlert.swift in Sources */,
+				D27FA93F1D4243C500758BBE /* UnsupportedOSVersionAlert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
