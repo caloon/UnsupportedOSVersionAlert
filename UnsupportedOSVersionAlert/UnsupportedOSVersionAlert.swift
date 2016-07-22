@@ -40,21 +40,17 @@ class OSVersionChecker: NSObject {
 
 class OSVersionAlert: NSObject {
     
-    class func show() {
+    class func show(title title: String = NSLocalizedString("Unsupported iOS Version", comment: ""), message: String = String.localizedStringWithFormat(NSLocalizedString("You are using %@ with an unsupported iOS version. Please note that a flawless functionality can only be granted when using supported iOS versions.", comment: ""), NSBundle.mainBundle().infoDictionary!["CFBundleName"] as! String)) {
         
+        // if iOS 8 or later, show UIAlertController; else fallback to UIAlertView
         if #available(iOS 8.0, *) {
-        
-            let alertController = UIAlertController(title: NSLocalizedString("Unsupported iOS Version", comment: ""), message: String.localizedStringWithFormat(NSLocalizedString("You are using %@ with an unsupported iOS version. Please note that some functionalities might thus not work as expected.", comment: ""), NSBundle.mainBundle().infoDictionary!["CFBundleName"] as! String), preferredStyle: .Alert)
-            
-            let cancelAction = UIAlertAction(title: "Done", style: .Cancel) { (action) in
+            let alertController = UIAlertController(title: title, message: message, preferredStyle: .Alert)
+            let cancelAction = UIAlertAction(title: "OK", style: .Cancel) { (action) in
             }
             alertController.addAction(cancelAction)
-            
             UIApplication.sharedApplication().keyWindow?.rootViewController?.presentViewController(alertController, animated: true, completion: nil)
         } else {
-            // Fallback on earlier iOS versions >> UIAlertView
-            
-            let alertView = UIAlertView(title: NSLocalizedString("Unsupported iOS Version", comment: ""), message: String.localizedStringWithFormat(NSLocalizedString("You are using %@ with an unsupported iOS version. Please note that a flawless functionality can only be granted when using supported iOS versions.", comment: "")), delegate: nil, cancelButtonTitle: "OK", otherButtonTitles: "")
+            let alertView = UIAlertView(title: title, message: message, delegate: nil, cancelButtonTitle: "OK", otherButtonTitles: "")
             alertView.alertViewStyle = .Default
             alertView.show()
             
