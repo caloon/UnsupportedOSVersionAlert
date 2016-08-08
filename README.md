@@ -22,7 +22,7 @@ coming soon...
 
 #### Manually
 1. Download and drop ```UnsupportedOSVersionAlert.swift``` in your project.  
-2. [Work in Progress] Drop the language files into your project.
+2. Drop the language files into your project.
 3. Done!
 
 ## Usage example
