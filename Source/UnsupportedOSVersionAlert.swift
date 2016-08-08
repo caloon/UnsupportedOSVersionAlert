@@ -40,7 +40,7 @@ class OSVersionChecker: NSObject {
 
 class OSVersionAlert: NSObject {
     
-    class func show(title title: String = NSLocalizedString("Unsupported iOS Version", comment: ""), message: String = String.localizedStringWithFormat(NSLocalizedString("You are using %@ with an unsupported iOS version. Please note that a flawless functionality can only be granted when using supported iOS versions.", comment: ""), NSBundle.mainBundle().infoDictionary!["CFBundleName"] as! String)) {
+    class func show(title title: String = NSLocalizedString("Unsupported iOS Version", comment: ""), message: String = String.localizedStringWithFormat(NSLocalizedString("%@ is not compatible with the version of your operating system (iOS %@). This might lead to unexpected errors.", comment: ""), NSBundle.mainBundle().infoDictionary!["CFBundleName"] as! String, UIDevice.currentDevice().systemVersion)) {
         
         // if iOS 8 or later, show UIAlertController; else fallback to UIAlertView
         if #available(iOS 8.0, *) {

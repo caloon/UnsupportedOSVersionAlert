@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  UnsupportedOSVersionAlert
+
+  Created by Josef Moser on 08/08/2016.
+  Copyright © 2016 Josef Moser. All rights reserved.
+*/
+
+"Unsupported iOS Version" = "지원되지 않는 iOS 버전";
+"%@ is not compatible with the version of your operating system (iOS %@). This might lead to unexpected errors." = "%@ 이가 사용 중인 운영 체제이 버전과 호환되지 않습니다. (iOS %@). 예기치 않은 오류가 발생할 수 있습니다.";

@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  UnsupportedOSVersionAlert
+
+  Created by Josef Moser on 08/08/2016.
+  Copyright © 2016 Josef Moser. All rights reserved.
+*/
+
+"Unsupported iOS Version" = "iOS バージョンはサポートされていません";
+"%@ is not compatible with the version of your operating system (iOS %@). This might lead to unexpected errors." = "%@ はお使いのOSのバージョンとの互換性がありません(iOS %@)。 予期しないエラーが発生する可能性があります。";
