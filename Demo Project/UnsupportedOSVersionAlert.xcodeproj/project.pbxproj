@@ -197,6 +197,7 @@
 				D263D7911D5860AF008CAC01 /* nl */,
 			);
 			name = Localizable.strings;
+			path = ../../Source;
 			sourceTree = "<group>";
 		};
 		D2E2E41D1D252225003F246F /* Main.storyboard */ = {
