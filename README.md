@@ -13,7 +13,7 @@ The AlertController shows only *once* for each system version (e.g. only once fo
 ## Requirements
 
 - iOS 7.0+ (please test with iOS 7 if you still have Xcode 6 installed)
-- Swift 2.0
+- Swift 3.0 (last stable Swift 2 version: 74e577b)
 
 ## Installation
 
