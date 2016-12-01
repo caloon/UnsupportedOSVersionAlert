@@ -10,7 +10,6 @@
 		D263D7831D58602A008CAC01 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D263D7851D58602A008CAC01 /* Localizable.strings */; };
 		D27FA93F1D4243C500758BBE /* UnsupportedOSVersionAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FA93E1D4243C500758BBE /* UnsupportedOSVersionAlert.swift */; };
 		D2E2E41A1D252225003F246F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E2E4191D252225003F246F /* AppDelegate.swift */; };
-		D2E2E41C1D252225003F246F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E2E41B1D252225003F246F /* ViewController.swift */; };
 		D2E2E41F1D252225003F246F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E2E41D1D252225003F246F /* Main.storyboard */; };
 		D2E2E4221D252225003F246F /* UnsupportedOSVersionAlert.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2E2E4201D252225003F246F /* UnsupportedOSVersionAlert.xcdatamodeld */; };
 		D2E2E4241D252225003F246F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E2E4231D252225003F246F /* Assets.xcassets */; };
@@ -34,7 +33,6 @@
 		D27FA93E1D4243C500758BBE /* UnsupportedOSVersionAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UnsupportedOSVersionAlert.swift; path = ../../Source/UnsupportedOSVersionAlert.swift; sourceTree = "<group>"; };
 		D2E2E4161D252225003F246F /* UnsupportedOSVersionAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnsupportedOSVersionAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E2E4191D252225003F246F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D2E2E41B1D252225003F246F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D2E2E41E1D252225003F246F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2E2E4211D252225003F246F /* UnsupportedOSVersionAlert.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UnsupportedOSVersionAlert.xcdatamodel; sourceTree = "<group>"; };
 		D2E2E4231D252225003F246F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				D2E2E4191D252225003F246F /* AppDelegate.swift */,
-				D2E2E41B1D252225003F246F /* ViewController.swift */,
 				D27FA93E1D4243C500758BBE /* UnsupportedOSVersionAlert.swift */,
 				D263D7851D58602A008CAC01 /* Localizable.strings */,
 				D2E2E41D1D252225003F246F /* Main.storyboard */,
@@ -170,7 +167,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2E2E41C1D252225003F246F /* ViewController.swift in Sources */,
 				D2E2E41A1D252225003F246F /* AppDelegate.swift in Sources */,
 				D2E2E4221D252225003F246F /* UnsupportedOSVersionAlert.xcdatamodeld in Sources */,
 				D27FA93F1D4243C500758BBE /* UnsupportedOSVersionAlert.swift in Sources */,

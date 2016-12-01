@@ -18,12 +18,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate, OSVersionCheckerDelegate 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        OSVersionChecker.checkOSVersion(self, earliest: "8.1", latest: "9.1.3")
+        OSVersionChecker.checkOSVersion(delegate: self, earliest: "8.1", latest: "9.1.3")
         
         return true
     }
     
-    func didCheckOSVersion(_ supported: Bool) {
+    func didCheckOSVersion(supported: Bool) {
         if !supported {
             self.window?.makeKeyAndVisible()
             OSVersionAlert.show()
