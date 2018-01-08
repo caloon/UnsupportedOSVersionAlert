@@ -45,13 +45,12 @@ func didCheckOSVersion(supported: Bool) {
 OSVersionChecker.checkOSVersion(self, earliest: "8.1", latest: "9.1.3")
 ```
 
+
 ## Contribution
-- If you'd like to contribute please submit a pull request via GitHub. 
-- Speaking a language that is currently not supported by UnsupportedOSVersionAlert? Provide us your Localizations.
+Contributions are encouraged and possible by opening issues and pull requests.
 
-Like UnsupportedOSVersionAlert? Get us a beer ;-) 
+If you like my content, please consider supporting what I do: https://www.buymeacoffee.com/caloon
 
-[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NVFEEVXQSSM9S)
 
 ## Meta
 
