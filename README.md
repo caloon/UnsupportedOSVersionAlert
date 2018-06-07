@@ -45,20 +45,17 @@ func didCheckOSVersion(supported: Bool) {
 OSVersionChecker.checkOSVersion(self, earliest: "8.1", latest: "9.1.3")
 ```
 
+## Author
+
+<TODO> was created by Josef Moser. I am an independent software developer and co-founder of [Cora Health](https://www.cora.health/) and [Cryptoradar](https://cryptoradar.co).
+
+Find me on: [Github](https://github.com/caloon/) or [Twitter](https://twitter.com/josef_moser)
 
 ## Contribution
-Contributions are encouraged and possible by opening issues and pull requests.
 
-If you like my content, please consider supporting what I do: https://www.buymeacoffee.com/caloon
+We welcome contribution to this project by opening issues or pull request.
 
+## License
 
-## Meta
-
-Josef Moser – [@josef_moser](https://twitter.com/josef_moser)
-
-Distributed under the MIT license: Copyright (c) 2016 Josef Moser
-
-[https://github.com/caloon](https://github.com/caloon/)
-
-Feel free to use this source in any of your projects. If you'd like to acknowledge the author, feel free to link to www.caloon.co or this GitHub page.
-
+EmailOctopusKit is available under the MIT license. See the LICENSE file for more info.
+If you'd like to acknowledge the author of <TODO>, please set a link to this GitHub page.
