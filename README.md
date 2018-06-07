@@ -57,5 +57,5 @@ We welcome contribution to this project by opening issues or pull request.
 
 ## License
 
-EmailOctopusKit is available under the MIT license. See the LICENSE file for more info.
+UnsupportedOSVersionAlert is available under the MIT license. See the LICENSE file for more info.
 If you'd like to acknowledge the author of UnsupportedOSVersionAlert, please set a link to this GitHub page.
