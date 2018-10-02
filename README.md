@@ -12,26 +12,31 @@ The AlertController shows only *once* for each system version (e.g. only once fo
 
 ## Requirements
 
-- iOS 7.0+ (please test with iOS 7 if you still have Xcode 6 installed)
-- Swift 3.0 (last stable Swift 2 version: 74e577b)
+- iOS 8.0+
+- Swift 4.0
 
 ## Installation
 
 #### CocoaPods
-coming soon...
+UnsupportedOSVersionAlert is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'UnsupportedOSVersionAlert'
+```
 
 #### Manually
-1. Download and drop ```UnsupportedOSVersionAlert.swift``` in your project.  
-2. Drop the language files into your project.
+1. Download and drop ```UnsupportedOSVersionAlert.swift``` from the ```UnsupportedOSVersionAlert``` folder in your project.  
+2. Drop the language files from the ```UnsupportedOSVersionAlert``` folder into your project.
 3. Done!
 
 ## Usage example
 - Make your AppDelegate a delegate of OSVersionCheckerDelegate
-``` 
-class AppDelegate: UIApplicationDelegate, OSVersionCheckerDelegate 
+```
+class AppDelegate: UIApplicationDelegate, OSVersionCheckerDelegate
 ```
 - Implement the delegate method in your AppDelegate
-``` 
+```
 func didCheckOSVersion(supported: Bool) {
     if !supported {
         self.window?.makeKeyAndVisible()
@@ -41,8 +46,8 @@ func didCheckOSVersion(supported: Bool) {
 }
 ```
 - In your application didFinishLaunchingWithOptions, use the OSVersionChecker API to set the delegate, the earliest supported version and the latest supported version
-``` 
-OSVersionChecker.checkOSVersion(self, earliest: "8.1", latest: "9.1.3")
+```
+UnsupportedOSVersionAlert.check(self, earliestSupportedVersion: "8.1", latestSupportedVersion: "9.1.3")
 ```
 
 ## Author

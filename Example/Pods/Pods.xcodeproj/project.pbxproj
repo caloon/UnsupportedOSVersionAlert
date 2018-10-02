@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F6566EA0553584F30BF082762561C0A /* Pods-UnsupportedOSVersionAlert_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C2F1F12BD3867FEC52D0E6B3CE22D3 /* Pods-UnsupportedOSVersionAlert_Tests-dummy.m */; };
+		3AFB9DD821CD5CF8FE6D9E4EC0886D09 /* Pods-UnsupportedOSVersionAlert_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C17F111FCCBFBBAB9CD097D337AE8B /* Pods-UnsupportedOSVersionAlert_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C6025C7B2D32594209438DF9BCF3992 /* Pods-UnsupportedOSVersionAlert_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4063966503B7F90E7BB05A07E34667C4 /* Pods-UnsupportedOSVersionAlert_Example-dummy.m */; };
+		904564F35CA535F547B1E938E6050530 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BA8516ECE70BFD7B548ED5CB6E5F5CD9 /* Pods-UnsupportedOSVersionAlert_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93B0AAD9F1842DA79BEC7DD01C587FC4 /* Pods-UnsupportedOSVersionAlert_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F999AADE410AE9EB086019FF3162238C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8186C1EFD131DF0EB17B99E6CE575933 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C74AE77EA5F5B65703406365A5E8462;
+			remoteInfo = "Pods-UnsupportedOSVersionAlert_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1141970C2F1A3BAD6E78C4320E6A790F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12C64688DC070BD15A92B5BF2CD7BC1B /* Pods-UnsupportedOSVersionAlert_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UnsupportedOSVersionAlert_Tests.modulemap"; sourceTree = "<group>"; };
+		1E91D57D806AE36D18A19F597A08C3C5 /* Pods-UnsupportedOSVersionAlert_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UnsupportedOSVersionAlert_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1F5896B7F50EFEA5F3DF40976AFEEA76 /* Pods-UnsupportedOSVersionAlert_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UnsupportedOSVersionAlert_Example-resources.sh"; sourceTree = "<group>"; };
+		28E0CE2E3F9078C4456C2D2644055944 /* UnsupportedOSVersionAlert.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = UnsupportedOSVersionAlert.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		31CDE01BB1182F71D233CA49CB46695E /* Pods-UnsupportedOSVersionAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnsupportedOSVersionAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		34C2F1F12BD3867FEC52D0E6B3CE22D3 /* Pods-UnsupportedOSVersionAlert_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UnsupportedOSVersionAlert_Tests-dummy.m"; sourceTree = "<group>"; };
+		3B9BA404F5B430D723FB25C266536D11 /* Pods-UnsupportedOSVersionAlert_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnsupportedOSVersionAlert_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3DC4A9882ED604582F7CEDCBB75DB1B7 /* Pods-UnsupportedOSVersionAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnsupportedOSVersionAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4063966503B7F90E7BB05A07E34667C4 /* Pods-UnsupportedOSVersionAlert_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UnsupportedOSVersionAlert_Example-dummy.m"; sourceTree = "<group>"; };
+		472D13E49E3808AC99D6FD48749285DC /* Pods_UnsupportedOSVersionAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UnsupportedOSVersionAlert_Example.framework; path = "Pods-UnsupportedOSVersionAlert_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B55DD2166EA45DF9D2F62502A18ED47 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4FCEE8FB752DC0B57EEDD0089559DD4E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5983E464C6BC28A49F943A86AC2DE02E /* Pods-UnsupportedOSVersionAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnsupportedOSVersionAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		722D0E8EDAB886563E27CC7C01B7D98E /* Pods-UnsupportedOSVersionAlert_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UnsupportedOSVersionAlert_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7E4B96497E4D734384426FE34990213D /* Pods-UnsupportedOSVersionAlert_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UnsupportedOSVersionAlert_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93B0AAD9F1842DA79BEC7DD01C587FC4 /* Pods-UnsupportedOSVersionAlert_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UnsupportedOSVersionAlert_Example-umbrella.h"; sourceTree = "<group>"; };
+		960CA75F77401B90354848AE77B80DAD /* Pods-UnsupportedOSVersionAlert_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UnsupportedOSVersionAlert_Example.modulemap"; sourceTree = "<group>"; };
+		980211AFDA2CD627114A4311D4E2F2CF /* Pods-UnsupportedOSVersionAlert_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UnsupportedOSVersionAlert_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A06298AB8D277A858DFB62600C817893 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A14834A3C3274716910B4B7BABCBE19F /* Pods-UnsupportedOSVersionAlert_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnsupportedOSVersionAlert_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B8558FB9FB5A7FE0EB37439C697AB555 /* Pods_UnsupportedOSVersionAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UnsupportedOSVersionAlert_Tests.framework; path = "Pods-UnsupportedOSVersionAlert_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD40881A421DB1ABE1E273974BE4F79C /* Pods-UnsupportedOSVersionAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnsupportedOSVersionAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F40FD91F099D0B0BC1265CF8A651D283 /* Pods-UnsupportedOSVersionAlert_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UnsupportedOSVersionAlert_Tests-resources.sh"; sourceTree = "<group>"; };
+		F5C17F111FCCBFBBAB9CD097D337AE8B /* Pods-UnsupportedOSVersionAlert_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UnsupportedOSVersionAlert_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05290BF360BFDF50818D1C1C72E25127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F999AADE410AE9EB086019FF3162238C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6B688CFE31F112A3E6A73BC5008CCF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904564F35CA535F547B1E938E6050530 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B83188D368A16F778F42F72BF36E036 /* Pods-UnsupportedOSVersionAlert_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A06298AB8D277A858DFB62600C817893 /* Info.plist */,
+				960CA75F77401B90354848AE77B80DAD /* Pods-UnsupportedOSVersionAlert_Example.modulemap */,
+				980211AFDA2CD627114A4311D4E2F2CF /* Pods-UnsupportedOSVersionAlert_Example-acknowledgements.markdown */,
+				A14834A3C3274716910B4B7BABCBE19F /* Pods-UnsupportedOSVersionAlert_Example-acknowledgements.plist */,
+				4063966503B7F90E7BB05A07E34667C4 /* Pods-UnsupportedOSVersionAlert_Example-dummy.m */,
+				1E91D57D806AE36D18A19F597A08C3C5 /* Pods-UnsupportedOSVersionAlert_Example-frameworks.sh */,
+				1F5896B7F50EFEA5F3DF40976AFEEA76 /* Pods-UnsupportedOSVersionAlert_Example-resources.sh */,
+				93B0AAD9F1842DA79BEC7DD01C587FC4 /* Pods-UnsupportedOSVersionAlert_Example-umbrella.h */,
+				31CDE01BB1182F71D233CA49CB46695E /* Pods-UnsupportedOSVersionAlert_Example.debug.xcconfig */,
+				5983E464C6BC28A49F943A86AC2DE02E /* Pods-UnsupportedOSVersionAlert_Example.release.xcconfig */,
+			);
+			name = "Pods-UnsupportedOSVersionAlert_Example";
+			path = "Target Support Files/Pods-UnsupportedOSVersionAlert_Example";
+			sourceTree = "<group>";
+		};
+		49FB5DF7DEA0D080079EDAB34751ABFA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4B55DD2166EA45DF9D2F62502A18ED47 /* LICENSE */,
+				4FCEE8FB752DC0B57EEDD0089559DD4E /* README.md */,
+				28E0CE2E3F9078C4456C2D2644055944 /* UnsupportedOSVersionAlert.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4CB715B5C08BEBF37CE36D9F2A938FE9 /* Pods-UnsupportedOSVersionAlert_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1141970C2F1A3BAD6E78C4320E6A790F /* Info.plist */,
+				12C64688DC070BD15A92B5BF2CD7BC1B /* Pods-UnsupportedOSVersionAlert_Tests.modulemap */,
+				722D0E8EDAB886563E27CC7C01B7D98E /* Pods-UnsupportedOSVersionAlert_Tests-acknowledgements.markdown */,
+				3B9BA404F5B430D723FB25C266536D11 /* Pods-UnsupportedOSVersionAlert_Tests-acknowledgements.plist */,
+				34C2F1F12BD3867FEC52D0E6B3CE22D3 /* Pods-UnsupportedOSVersionAlert_Tests-dummy.m */,
+				7E4B96497E4D734384426FE34990213D /* Pods-UnsupportedOSVersionAlert_Tests-frameworks.sh */,
+				F40FD91F099D0B0BC1265CF8A651D283 /* Pods-UnsupportedOSVersionAlert_Tests-resources.sh */,
+				F5C17F111FCCBFBBAB9CD097D337AE8B /* Pods-UnsupportedOSVersionAlert_Tests-umbrella.h */,
+				3DC4A9882ED604582F7CEDCBB75DB1B7 /* Pods-UnsupportedOSVersionAlert_Tests.debug.xcconfig */,
+				CD40881A421DB1ABE1E273974BE4F79C /* Pods-UnsupportedOSVersionAlert_Tests.release.xcconfig */,
+			);
+			name = "Pods-UnsupportedOSVersionAlert_Tests";
+			path = "Target Support Files/Pods-UnsupportedOSVersionAlert_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				92EFD83A6B8D5BF119726FC1D671B75E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A2FD7266016CB5CA04DFA14A733D1706 /* Products */,
+				B14D8B00B2C20098944762F1F4966D78 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		92EFD83A6B8D5BF119726FC1D671B75E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBCFEA10EBE8634EAA8CB3054720F116 /* UnsupportedOSVersionAlert */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A2FD7266016CB5CA04DFA14A733D1706 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				472D13E49E3808AC99D6FD48749285DC /* Pods_UnsupportedOSVersionAlert_Example.framework */,
+				B8558FB9FB5A7FE0EB37439C697AB555 /* Pods_UnsupportedOSVersionAlert_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B14D8B00B2C20098944762F1F4966D78 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B83188D368A16F778F42F72BF36E036 /* Pods-UnsupportedOSVersionAlert_Example */,
+				4CB715B5C08BEBF37CE36D9F2A938FE9 /* Pods-UnsupportedOSVersionAlert_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBCFEA10EBE8634EAA8CB3054720F116 /* UnsupportedOSVersionAlert */ = {
+			isa = PBXGroup;
+			children = (
+				49FB5DF7DEA0D080079EDAB34751ABFA /* Pod */,
+			);
+			name = UnsupportedOSVersionAlert;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		906EF9EAD397167327AB69936D4E9871 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFB9DD821CD5CF8FE6D9E4EC0886D09 /* Pods-UnsupportedOSVersionAlert_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD2416BE9A543B44E22D21B6ABDB370C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8516ECE70BFD7B548ED5CB6E5F5CD9 /* Pods-UnsupportedOSVersionAlert_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5C74AE77EA5F5B65703406365A5E8462 /* Pods-UnsupportedOSVersionAlert_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B57201E765A084AC3F1580CDF3C7340 /* Build configuration list for PBXNativeTarget "Pods-UnsupportedOSVersionAlert_Example" */;
+			buildPhases = (
+				0DC51EAE80EF7DCFA38BC79E9F961C8E /* Sources */,
+				05290BF360BFDF50818D1C1C72E25127 /* Frameworks */,
+				FD2416BE9A543B44E22D21B6ABDB370C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-UnsupportedOSVersionAlert_Example";
+			productName = "Pods-UnsupportedOSVersionAlert_Example";
+			productReference = 472D13E49E3808AC99D6FD48749285DC /* Pods_UnsupportedOSVersionAlert_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E86FEE270C06B4E0FC51641C8C47DE7 /* Pods-UnsupportedOSVersionAlert_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5630FE193DC53376813449AB4828179F /* Build configuration list for PBXNativeTarget "Pods-UnsupportedOSVersionAlert_Tests" */;
+			buildPhases = (
+				FD878BF7B5A896D9B07003EE203A491A /* Sources */,
+				D6B688CFE31F112A3E6A73BC5008CCF5 /* Frameworks */,
+				906EF9EAD397167327AB69936D4E9871 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55615A905ECA8B4532CD14D51BE47E9D /* PBXTargetDependency */,
+			);
+			name = "Pods-UnsupportedOSVersionAlert_Tests";
+			productName = "Pods-UnsupportedOSVersionAlert_Tests";
+			productReference = B8558FB9FB5A7FE0EB37439C697AB555 /* Pods_UnsupportedOSVersionAlert_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A2FD7266016CB5CA04DFA14A733D1706 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C74AE77EA5F5B65703406365A5E8462 /* Pods-UnsupportedOSVersionAlert_Example */,
+				8E86FEE270C06B4E0FC51641C8C47DE7 /* Pods-UnsupportedOSVersionAlert_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DC51EAE80EF7DCFA38BC79E9F961C8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6025C7B2D32594209438DF9BCF3992 /* Pods-UnsupportedOSVersionAlert_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD878BF7B5A896D9B07003EE203A491A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6566EA0553584F30BF082762561C0A /* Pods-UnsupportedOSVersionAlert_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55615A905ECA8B4532CD14D51BE47E9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UnsupportedOSVersionAlert_Example";
+			target = 5C74AE77EA5F5B65703406365A5E8462 /* Pods-UnsupportedOSVersionAlert_Example */;
+			targetProxy = 8186C1EFD131DF0EB17B99E6CE575933 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A1551AE24090304F134B500D8C2E7B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31CDE01BB1182F71D233CA49CB46695E /* Pods-UnsupportedOSVersionAlert_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UnsupportedOSVersionAlert_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UnsupportedOSVersionAlert_Example/Pods-UnsupportedOSVersionAlert_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		49043A48E84479F4C0B417031647AF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DC4A9882ED604582F7CEDCBB75DB1B7 /* Pods-UnsupportedOSVersionAlert_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UnsupportedOSVersionAlert_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UnsupportedOSVersionAlert_Tests/Pods-UnsupportedOSVersionAlert_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7481A392FB6CE959C8B334ACE8D7F7F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD40881A421DB1ABE1E273974BE4F79C /* Pods-UnsupportedOSVersionAlert_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UnsupportedOSVersionAlert_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UnsupportedOSVersionAlert_Tests/Pods-UnsupportedOSVersionAlert_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F67BA40634B2FBCAC3C4CE824EACF789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5983E464C6BC28A49F943A86AC2DE02E /* Pods-UnsupportedOSVersionAlert_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UnsupportedOSVersionAlert_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UnsupportedOSVersionAlert_Example/Pods-UnsupportedOSVersionAlert_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B57201E765A084AC3F1580CDF3C7340 /* Build configuration list for PBXNativeTarget "Pods-UnsupportedOSVersionAlert_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A1551AE24090304F134B500D8C2E7B7 /* Debug */,
+				F67BA40634B2FBCAC3C4CE824EACF789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5630FE193DC53376813449AB4828179F /* Build configuration list for PBXNativeTarget "Pods-UnsupportedOSVersionAlert_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49043A48E84479F4C0B417031647AF24 /* Debug */,
+				7481A392FB6CE959C8B334ACE8D7F7F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

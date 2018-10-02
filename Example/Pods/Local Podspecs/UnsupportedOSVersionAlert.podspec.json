@@ -1,0 +1,23 @@
+{
+  "name": "UnsupportedOSVersionAlert",
+  "version": "0.1.0",
+  "summary": "Alert your users if they use an unsupported iOS version with your app",
+  "description": "UnsupportedOSVersionAlert is a light-weight and handy plugin that helps you inform users of unsupported iOS versions (such as iOS betas)",
+  "homepage": "https://github.com/caloon/UnsupportedOSVersionAlert",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "caloon": "me@josefmoser.de"
+  },
+  "source": {
+    "git": "https://github.com/caloon/UnsupportedOSVersionAlert.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/josef_moser",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "UnsupportedOSVersionAlert/Classes/**/*"
+}

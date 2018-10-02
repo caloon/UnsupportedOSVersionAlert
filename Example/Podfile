@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UnsupportedOSVersionAlert_Example' do
+  pod 'UnsupportedOSVersionAlert', :path => '../'
+
+  target 'UnsupportedOSVersionAlert_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

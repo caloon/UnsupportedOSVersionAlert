@@ -1,0 +1,16 @@
+PODS:
+  - UnsupportedOSVersionAlert (0.1.0)
+
+DEPENDENCIES:
+  - UnsupportedOSVersionAlert (from `../`)
+
+EXTERNAL SOURCES:
+  UnsupportedOSVersionAlert:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UnsupportedOSVersionAlert: 94d56bc67257aed7f2b0a043d26027d27a73c224
+
+PODFILE CHECKSUM: bac54eb29fc9eba39fdb6e9a4d59840867578bd6
+
+COCOAPODS: 1.5.0
